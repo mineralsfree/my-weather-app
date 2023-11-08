@@ -1,0 +1,13 @@
+.content_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+    min-height: 367px
+}
+@media (max-width: 1079px) {
+    .content_container{
+        flex-direction: column;
+        /*height: 367px*/
+    }
+}

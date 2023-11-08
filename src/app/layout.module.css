@@ -1,0 +1,15 @@
+.main_container{
+    display: flex;
+    padding: 1rem;
+}
+.toggle_button_group{
+    margin-left: 5rem;
+}
+@media (max-width: 600px) {
+    .main_container{
+        padding: 0.5em;
+        justify-content: center;
+
+    }
+}
+

@@ -1,0 +1,37 @@
+
+
+.stationForm > div:not(:first-child){
+    margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+    .stationForm > .name_input{
+        margin-bottom: 1.5rem;
+    }
+    .saveButton{
+        margin-left: 0;
+        align-self: flex-end;
+    }
+    .stationForm > div{
+        width: 100%;
+    }
+    .stationForm > div:not(:first-child){
+        margin-left: 0;
+    }
+    .stationForm{
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .name_input{
+    }
+}
+.stationForm{
+    display: flex;
+    align-items: baseline;
+}
+.name_input{
+    min-width: 160px;
+}
+.saveButton{
+    margin-left: 1rem;
+}
